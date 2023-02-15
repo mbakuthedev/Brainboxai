@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  dialogFlow:{
+    Chatbot : "http://api.brainshop.ai/get?bid=172707&key=trsms77NLyvZdH4M&uid=[1243]&msg=[msg]"
+  }
 };
 
 /*
